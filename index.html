@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Serial Application</title>
+   <!-- <script>
+        if(window.location.protocol == 'http:'){
+            window.location.href = 'https:' + window.location.href.substring(5);
+        }
+    </script>-->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <header class = "header">
+        <h1>Welcome to Serial Upload IDE</h1>
+    </header>
+    <main class="main">
+        <div id="notSupported" class="hidden">
+            Sorry <b>Web Serial API</b> is not supported in your browser, make sure you're using Chrome or Any other Supported Browser 
+        </div>
+        <br>
+        <button id="butConnect" type="button">Connect</button>
+        <br>
+        <textarea id="codearea" name="codearea" rows="10" cols="100">Enter you code here...</textarea>
+        <br>
+        <button id="butUpload" type="button">Upload</button>
+        <button id="butClear" type="button">Clear</button>
+        <button id="butSave" type="button">Save</button>
+
+
+    </main>
+</head>
+<body>
+    
+</body>
+</html>
